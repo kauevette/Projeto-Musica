@@ -18,8 +18,7 @@ font-family: 'Salsa', cursive; */
 }
 
 body{
-    background-color: #f00;
-    background-image: linear-gradient(to left, #070756, #fff, #000);
+    background-image: linear-gradient(to left, #070756cc, #074656, #0000007c);
     background-size: 500% 100%;
     animation: degrade-animado 5s infinite alternate;
 }
@@ -95,7 +94,7 @@ body{
     font-size: 5rem;
     font-weight: bold;
     width: 50vw;
-    line-height: 7vh;
+    line-height: 9vh;
 }
 
 .icon2-1{
@@ -349,7 +348,7 @@ body{
     width: 100%;
     position: relative;
     top: 70vh;
-    padding-left: 100px;
+    padding-left: 10px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
     gap: 10px;
