@@ -19,7 +19,7 @@ font-family: 'Salsa', cursive; */
 
 body{
     background-color: #f00;
-    /* background-image: linear-gradient(to left, #070756, #fff, #000);
+    background-image: linear-gradient(to left, #070756, #fff, #000);
     background-size: 500% 100%;
     animation: degrade-animado 5s infinite alternate;
 }
@@ -31,7 +31,7 @@ body{
 
     100% {
         background-position-x: 100%;
-    } */
+    }
 }
 
 /* tela 1 */
