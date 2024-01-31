@@ -94,7 +94,7 @@ body{
     font-size: 5rem;
     font-weight: bold;
     width: 50vw;
-    line-height: 9vh;
+    line-height: 12vh;
 }
 
 .icon2-1{
@@ -189,7 +189,7 @@ body{
 
 .line1-3{
     width: 80%;
-    line-height: 8vh;
+    line-height: 12vh;
 }
 
 .line-principal3{
@@ -344,6 +344,7 @@ body{
 .line26{
     font-family: 'Salsa', cursive;
     text-transform: capitalize;
+    align-items: center;
     font-size: 3rem;
     width: 100%;
     position: relative;
