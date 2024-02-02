@@ -937,6 +937,12 @@ body{
         font-size: 2.3rem;
     }
 
+    .line83 .img-bonus{
+        height: 600px;
+        width: 300px;
+        padding: 3px;
+    }
+
     .line83 .border83{
         border: none;
     }
