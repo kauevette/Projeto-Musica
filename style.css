@@ -937,10 +937,13 @@ body{
         font-size: 2.3rem;
     }
 
+    .line83 div:nth-child(4), .line83 div:nth-child(5), .line83:nth-child(6){
+        padding: 5px;
+    }
+
     .line83 .img-bonus{
-        height: 600px;
-        width: 300px;
-        padding: 3px;
+        height: 700px;
+        width: 350px;
     }
 
     .line83 .border83{
@@ -1004,6 +1007,15 @@ body{
     .line93{
         grid-template-columns: 1fr;
         font-size: 2.3rem;
+    }
+
+    .line93 div:nth-child(4), .line93 div:nth-child(5), .line93:nth-child(6), .line93:nth-child(13), .line93:nth-child(14), .line93:nth-child(15){
+        padding: 5px;
+    }
+
+    .line93 .img-bonus{
+        height: 700px;
+        width: 350px;
     }
 
     .line93 .border93, .line93 .border-top93{
