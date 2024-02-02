@@ -505,7 +505,7 @@ body{
 
 .btn4{
     position: relative;
-    top: 90vh;
+    top: 95vh;
 }
 
 .line81{
@@ -516,7 +516,7 @@ body{
     font-size: 5rem;
     font-family: 'Bungee Spice', sans-serif;
     position: relative;
-    top: 95vh;
+    top: 98vh;
 }
 
 .line8-1{
@@ -534,7 +534,7 @@ body{
     font-family: 'Salsa', cursive;
     font-weight: bold;
     position: relative;
-    line-height: 8vh;
+    line-height: 12vh;
     top: 98vh;
 }
 
@@ -616,7 +616,7 @@ body{
     font-family: 'Salsa', cursive;
     font-weight: bold;
     position: relative;
-    line-height: 8vh;
+    line-height: 12vh;
     top: 110vh;
 }
 
