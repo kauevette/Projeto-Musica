@@ -735,6 +735,12 @@ body{
         padding: 3px;
     }
 
+    .line2-1{
+        width: 200px;
+        height: 50px;
+        grid-column: 2 / span 3;
+    }
+
     .icon1-1{
         width: 50px;
     }
