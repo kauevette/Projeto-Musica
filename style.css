@@ -360,9 +360,23 @@ body{
     color: #fff;
 }
 
+.line26 .column:last-child{
+    grid-column: 3;
+}
+
+.line26 .column:nth-last-child(2){
+    grid-column: 2;
+}
+
 .column{
     padding: 10px;
     text-align: start;
+    border: none;
+    background-color: transparent;
+    font-size: 3rem;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Salsa', cursive;
 }
 
 .span1-6{
@@ -869,8 +883,12 @@ body{
         align-items: center;
     }
 
-    .line27{
-        font-size: 1.5rem;
+    .line26 .column:last-child{
+        grid-column: 2;
+    }
+
+    .line26 .column:nth-last-child(2){
+        grid-column: 1;
     }
 
     /* Parte 7 */
