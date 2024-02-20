@@ -8,23 +8,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
             if (audio.paused || audio.src !== audioPath) {
                 audio.src = audioPath;
+                audio.currentTime = 0; // Reinicia a reprodução para o início
                 audio.play();
-                updateButtonStates(this);
+                setTimeout(function () {
+                    audio.pause();
+                }, 10000); // Pausa após 10 segundos
             } else {
                 audio.pause();
-                audio.currentTime = 0;
-                updateButtonStates(null);
             }
         });
     });
-
-    function updateButtonStates(clickedButton) {
-        playButtons.forEach(function (button) {
-            if (button === clickedButton) {
-                button = audio.paused ? 'Pausar Música' : 'Reproduzir Música';
-            } else {
-                button = 'Reproduzir Música';
-            }
-        });
-    }
 });
