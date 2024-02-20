@@ -9,10 +9,22 @@ document.addEventListener('DOMContentLoaded', function () {
             if (audio.paused || audio.src !== audioPath) {
                 audio.src = audioPath;
                 audio.play();
+                updateButtonStates(this);
             } else {
                 audio.pause();
-                this.innerHTML = 'Reproduzir Música';
+                audio.currentTime = 0;
+                updateButtonStates(null);
             }
         });
     });
+
+    function updateButtonStates(clickedButton) {
+        playButtons.forEach(function (button) {
+            if (button === clickedButton) {
+                button = audio.paused ? 'Pausar Música' : 'Reproduzir Música';
+            } else {
+                button = 'Reproduzir Música';
+            }
+        });
+    }
 });
