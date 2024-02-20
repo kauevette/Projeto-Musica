@@ -18,10 +18,10 @@ font-family: 'Salsa', cursive; */
 }
 
 body{
-    background: #0000008a;
-    /* background-image: linear-gradient(to left, #070756cc, #074656, #0000007c);
+    /* background: #0000008a; */
+    background-image: linear-gradient(to left, #070756cc, #074656, #0000007c);
     background-size: 500% 100%;
-    animation: degrade-animado 5s infinite alternate; */
+    animation: degrade-animado 5s infinite alternate;
 }
 
 @keyframes degrade-animado {
