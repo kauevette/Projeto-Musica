@@ -10,7 +10,7 @@ font-family: 'Salsa', cursive; */
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 15px;
 }
 
 ::-webkit-scrollbar-thumb {
