@@ -18,7 +18,7 @@ font-family: 'Salsa', cursive; */
 }
 
 body{
-    /* background: #0000008a; */
+    background: #0000008a;
     background-image: linear-gradient(to left, #070756cc, #074656, #0000007c);
     background-size: 500% 100%;
     animation: degrade-animado 5s infinite alternate;
@@ -586,7 +586,32 @@ body{
 .line83 .border83{
     width: 100%;
     border-left: 10px solid #000;
-    border-right: 10px solid #000;
+}
+
+.line83 > div:nth-last-child(3),
+.line83 > div:nth-last-child(2),
+.line83 > div:nth-last-child(1) {
+    grid-column: span 2;
+}
+
+.border83-1 {
+    width: 100%;
+    border-bottom: 10px solid #000;
+}
+
+.border83-2 {
+    width: 100%;
+    border-left: 10px solid #000;
+    border-bottom: 10px solid #000;
+}
+
+.line83 > div:nth-last-child(3) {
+    margin-top: 5vh;
+}
+
+.img-bonus-1 {
+    width: 650px;
+    height: 800px;
 }
 
 .line8-3, .line8-4, .line8-5{
