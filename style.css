@@ -18,7 +18,7 @@ font-family: 'Salsa', cursive; */
 }
 
 body{
-    background: #0000008a;
+    /* background: #0000008a; */
     background-image: linear-gradient(to left, #070756cc, #074656, #0000007c);
     background-size: 500% 100%;
     animation: degrade-animado 5s infinite alternate;
@@ -139,7 +139,7 @@ body{
 }
 
 .line2-2{
-    grid-column: 2 / span 2;
+    grid-column: 1 / span 3;
     white-space: nowrap;
 }
 
@@ -999,15 +999,81 @@ body{
     .line8-2{
         width: 100%;
     }
-
+    
     .line83{
-        grid-template-columns: 1fr;
+        grid-template-columns: none;
         top: 108vh;
         font-size: 2.3rem;
     }
+    
+    .line83 > div:nth-last-child(3),
+    .line83 > div:nth-last-child(2),
+    .line83 > div:nth-last-child(1) {
+        grid-column: span 1;
+}
 
     .line83 div:nth-child(4), .line83 div:nth-child(5), .line83:nth-child(6){
         padding: 5px;
+    }
+
+    .line83 div:nth-child(1){
+        order: 1;
+    }
+
+    .line83 div:nth-child(2){
+        order: 4;
+    }
+
+    .line83 div:nth-child(3){
+        order: 2;
+    }
+
+    .line83 div:nth-child(4){
+        order: 5;
+    }
+
+    .line83 div:nth-child(5){
+        order: 3;
+    }
+
+    .line83 div:nth-child(6){
+        order: 6;
+    }
+
+    .line83 div:nth-child(7){
+        order: 7;
+    }
+
+    .line83 div:nth-child(8){
+        order: 10;
+    }
+
+    .line83 div:nth-child(9){
+        order: 8;
+    }
+
+    .line83 div:nth-child(10){
+        order: 11;
+    }
+
+    .line83 div:nth-child(11){
+        order: 9;
+    }
+
+    .line83 div:nth-child(12){
+        order: 12;
+    }
+
+    .line83 div:nth-child(13){
+        order: 13;
+    }
+
+    .line83 div:nth-child(14){
+        order: 14;
+    }
+
+    .line83 div:nth-child(15){
+        order: 15;
     }
 
     .line83 .img-bonus{
@@ -1015,56 +1081,13 @@ body{
         width: 350px;
     }
 
-    .line83 .border83{
+    .img-bonus-1 {
+        height: 700px;
+        width: 400px;
+    }
+
+    .line83 .border83, .border83-1, .border83-2{
         border: none;
-    }
-
-    .line83 div:nth-child(1){
-        order: 1;
-    }
-
-    .line83 div:nth-child(3){
-        order: 2;
-    }
-
-    .line83 div:nth-child(5){
-        order: 3;
-    }
-
-    .line83 div:nth-child(2){
-        order: 4;
-    }
-
-    .line83 div:nth-child(4){
-        order: 5;
-    }
-
-    .line83 div:nth-child(6){
-        order: 6;
-    }
-    
-    .line83 div:nth-child(7){
-        order: 7;
-    }
-
-    .line83 div:nth-child(9){
-        order: 8;
-    }
-
-    .line83 div:nth-child(11){
-        order: 9;
-    }
-
-    .line83 div:nth-child(8){
-        order: 10;
-    }
-    
-    .line83 div:nth-child(10){
-        order: 11;
-    }
-    
-    .line83 div:nth-child(12){
-        order: 12;
     }
 
     /* Parte 9 */
