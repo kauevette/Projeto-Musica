@@ -17,6 +17,10 @@ font-family: 'Salsa', cursive; */
     background-color: #000;
 }
 
+a {
+    text-decoration: none;
+}
+
 body{
     /* background: #0000008a; */
     background-image: linear-gradient(to left, #070756cc, #074656, #0000007c);
